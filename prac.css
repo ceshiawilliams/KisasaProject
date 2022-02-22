@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap');
+
+* {
+   
+    background-image: url("images/img7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Megrim', cursive;
+    color: black;
+    padding: 80px;
+    background: transparent;
+
+
+
+}
+
+h1 #name {
+    text-decoration: underline;
+    text-decoration-color: #2b6b85;
+    font-size: 45px;
+    font-family: 'Megrim', cursive;
+    color: #717478;
+    background: transparent;
+
+}
+
+h1 #i {
+    text-decoration: underline;
+    text-decoration-color: #2b6b85;
+    font-size: 45px;
+    font-family: 'Megrim', cursive;
+    color: #2b6b85;
+    background: transparent;
+
+}
+
+h1 u span {
+
+    font-size: 45px;
+    font-family: 'Megrim', cursive;
+    color: black;
+    background: transparent;
+
+}
+
+form span {
+
+    text-align: center;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+}
+
+
+u{
+    background: transparent;
+}
+
+#form {
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;;
+    background:transparent;
+    margin: auto;
+    width: 400px;
+    padding: 30px;
+    background-color: rgb(6, 22, 65); 
+   
+
+    
+}
+
+form input{
+    border: solid rgb(42, 45, 219) 2px;
+    outline: none;
+    width: 75%;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+    background:transparent;
+    color: white;
+
+}
+
+form small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+form input:hover{
+   border-color: rgb(53, 161, 204);
+}
+
+
+
+form input::placeholder {
+    font-size: 15px;
+    color: white;
+}
+
+
+ #btn {
+
+    font-size: 15px;
+    background-color: rgb(53, 161, 204);
+    color: white;
+
+
+}
+
+#btn:hover {
+    background-color: rgb(53, 161, 204) ;
+}
+
+
+
+img{
+    height: 70px;
+    width: 200px;
+    width: 50%;
+    padding: 50px;
+    float: right;
+    background:transparent;
+
+    }
+
+    .row {
+        display: flex;
+        background: transparent;
+        margin: 10px;
+       
+    }
+
+    .row {
+        display: block;
+        padding: 15px;
+       
+       
+    }
+
+    .row p {
+    text-align: center;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 15px;
+    background: transparent;
+    color: white;
+    }
+
+    .row .fa {
+       
+        padding: 10px;
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        margin: 0 5px;
+      }
+
+      .fa-google {
+        background: #3B5998;
+        color: white;
+      }
+
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+
+      
+
+     
+
+  
+
+ 
